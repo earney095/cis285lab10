@@ -77,6 +77,10 @@ public void test4() {
          Sortedarr[3] = -4;
          Sortedarr[4] = -2;
          
+
+         arr = temp1.basicSelectionSort(arr);
+         
+
          for(int i = 0; i < arr.length; i++) {
          	assertTrue(arr[i] == Sortedarr[i]);
          }
@@ -98,7 +102,9 @@ public void test4() {
         Sortedarr[2] = 5;
         Sortedarr[3] = 9;
         Sortedarr[4] =  22;
-        
+
+        arr = temp1.basicSelectionSort(arr);
+      
         for(int i = 0; i < arr.length; i++) {
         	assertTrue(arr[i] == Sortedarr[i]);
         }
@@ -118,6 +124,8 @@ public void test4() {
         Sortedarr[2] = 5;
         Sortedarr[3] = 12;
         Sortedarr[4] =  12;
+
+        arr = temp1.basicSelectionSort(arr);
         
         for(int i = 0; i < arr.length; i++) {
         	assertTrue(arr[i] == Sortedarr[i]);
